@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: grey;
+}
+
+.container {
+    width: 640px;
+    height: 640px;
+    /* margin: 20px; */
+    border: 25px ridge #000;
+    border-radius: 5px;
+    background-color: orange;
+    box-shadow: 5px 5px 8px #D7D6C8,
+                -5px -5px 8px #ffffff;
+    position: relative;
+    left: 250px;
+overflow: hidden;
+
+
+
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color:brown;
+      font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    
+}
+.black:hover i {
+    transform: scale(1.5);
+    
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+    animation: example 5s;
+
+}
+
+
+
+.white:hover i{
+    transform: scale(1.5);
+   
+}
+
+@keyframes example{
+    from{background-color: burlywood;}
+    to{background-color: yellow;}
+}
